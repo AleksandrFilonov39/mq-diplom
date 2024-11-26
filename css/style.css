@@ -2,9 +2,9 @@
   font-family: "OpenSans-Bold";
   font-style: normal;
   font-weight: Bold;
-  src: local("OpenSans-Bold"), url("/fonts/OpenSans-Bold.woff2") format("woff2"),
-    url("/fonts/OpenSans-Bold.woff") format("woff"),
-    url("/fonts/OpenSans-Bold.ttf") format("ttf");
+  src: local("OpenSans-Bold"), url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/OpenSans-Bold.ttf") format("ttf");
 }
 
 @font-face {
@@ -12,9 +12,9 @@
   font-style: normal;
   font-weight: normal;
   src: local("OpenSans-Regular"),
-    url("/fonts/OpenSans-Regular.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular.woff") format("woff"),
-    url("/fonts/OpenSans-Regular.ttf") format("ttf");
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/OpenSans-Regular.ttf") format("ttf");
 }
 
 body,
@@ -172,7 +172,7 @@ body {
 
 .trends-card {
   min-height: 230px;
-  background-image: url(/images/trend1.jpg);
+  background-image: url(../images/trend1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -45px;
@@ -247,7 +247,7 @@ body {
 
 .trends-card2 {
   min-height: 230px;
-  background-image: url(/images/trend2.jpg);
+  background-image: url(../images/trend2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -271,7 +271,7 @@ body {
 
 .trends-card3 {
   min-height: 230px;
-  background-image: url(/images/trend3.jpg);
+  background-image: url(../images/trend3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -295,7 +295,7 @@ body {
 
 .trends-card4 {
   min-height: 230px;
-  background-image: url(/images/trend4.jpg);
+  background-image: url(../images/trend4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -501,7 +501,7 @@ body {
 
 .side-bar-search-btn {
   position: absolute;
-  background-image: url(/swg/search.svg);
+  background-image: url(../swg/search.svg);
   width: 49px;
   height: 49px;
   background-color: #b59f5b;
@@ -990,7 +990,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url(/swg/form-arrows.svg);
+  background-image: url(../swg/form-arrows.svg);
   background-size: 9px 18px;
   background-repeat: no-repeat;
   background-position: 91.46% 50%;
@@ -1029,7 +1029,7 @@ body {
 
 .radio-btn .subscribe-text::before {
   content: "";
-  background-image: url(/swg/form-empty-circle.svg);
+  background-image: url(../swg/form-empty-circle.svg);
   height: 24px;
   width: 24px;
   position: absolute;
@@ -1042,7 +1042,7 @@ body {
 }
 
 .radio-btn .input-email:checked + .subscribe-text::before {
-  background-image: url(/swg/form-circle.svg);
+  background-image: url(../swg/form-circle.svg);
 }
 
 .radio-btn:not(:first-child) {
@@ -1180,7 +1180,7 @@ body {
 
 @media (min-width: 768px) {
   .header {
-    background-image: url(/images/banner-bg-tablet.jpg);
+    background-image: url(../images/banner-bg-tablet.jpg);
     min-height: 390px;
   }
 
@@ -1491,7 +1491,7 @@ body {
   }
 
   .header {
-    background-image: url(/images/banner-bg.jpg);
+    background-image: url(../images/banner-bg.jpg);
     width: 100%;
     min-height: 450px;
   }
