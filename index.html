@@ -406,35 +406,40 @@
 
   
   <label for="popup-triger" class="triger-text">Открыть окно</label>
-  <input type="checkbox" id="popup-triger" class="triger">
-  <div class="popup">
-    <label for="popup-triger" class="triger-text-close">&#10006;</label>
-    <h3 class="popup-title">ваш фидбэк</h3>
-    <form class="popup-form">
-      <label for="visit-site" class="popup-label-visit">Как часто вы заходите на сайт?</label>
-      <select name="city" id="visit-site" class="popup-select">
-        <option value="">Почти каждый день</option>
-        <option value="samara">Раз в несколько дней</option>
-        <option value="perm">Раз в несколько недель</option>
-        <option value="novosibirsk">Несколько раз в год</option>
-      </select>
-      <p class="text-email">Вы подписаны на e-mail рассылку?</p>
-      <div class="radio-btn">
-        <input type="radio" name="subscribe" id="subscribeYes" checked class="input-email visually-hidden">
-        <label for="subscribeYes" class="subscribe-text">Да</label>
-      </div>
-      <div class="radio-btn">
-        <input type="radio" name="subscribe" id="subscribeNo" class="input-email visually-hidden">
-        <label for="subscribeNo" class="subscribe-text">Нет</label>
-      </div>
-      <div class="area-container">
-        <label for="story" class="story-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-        <textarea id="story" name="story" rows="5" cols="33" class="popup-area"
-          placeholder="Может, больше рецептов?"></textarea>
-      </div>
-      <input type="submit" class="submit-btn" value="отправить">
-    </form>
+  <input type="checkbox" id="popup-triger" class="triger visually-hidden">
+  <div class="popup-container">
+    <div class="popup">
+      <label for="popup-triger" class="triger-text-close">&#10006;</label>
+      <h3 class="popup-title">ваш фидбэк</h3>
+      <form class="popup-form" action="#">
+        <label for="visit-site" class="popup-label-visit">Как часто вы заходите на сайт?</label>
+        <select name="city" id="visit-site" class="popup-select" required>
+          <option value="">Почти каждый день</option>
+          <option value="samara">Раз в несколько дней</option>
+          <option value="perm">Раз в несколько недель</option>
+          <option value="novosibirsk">Несколько раз в год</option>
+        </select>
+        <p class="text-email">Вы подписаны на e-mail рассылку?</p>
+          <div class="radio-container">
+          <div class="radio-btn">
+            <input type="radio" name="subscribe" id="subscribeYes" checked class="input-email visually-hidden">
+            <label for="subscribeYes" class="subscribe-text">Да</label>
+          </div>
+          <div class="radio-btn">
+            <input type="radio" name="subscribe" id="subscribeNo" class="input-email visually-hidden">
+            <label for="subscribeNo" class="subscribe-text">Нет</label>
+          </div>
+        </div>
+        <div class="area-container">
+          <label for="story" class="story-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+          <textarea id="story" name="story" rows="5" cols="33" class="popup-area"
+            placeholder="Может, больше рецептов?" required></textarea>
+        </div>
+        <input type="submit" class="submit-btn" value="отправить">
+      </form>
+    </div>
   </div>
+
 </body>
 
 </html>
