@@ -81,6 +81,10 @@ body {
   font-size: 13px;
 }
 
+.list-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
 .list-link-desktop {
   display: none;
 }
@@ -243,6 +247,10 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   z-index: 2;
+}
+
+.trends-titel-link:hover {
+  color: #b59f5b;
 }
 
 .trends-card2 {
@@ -1627,14 +1635,14 @@ body {
 
   /* ---------tag----------- */
 
+  .side-bar-tag-title {
+    margin-left: 120px;
+  }
+
   /* ----------------topics----------------- */
 
   .side-bar-topics {
     margin-top: 57px;
-  }
-
-  .side-bar-tag-title {
-    margin-left: 149px;
   }
 
   .side-bar-topics-title::after {
@@ -1654,8 +1662,8 @@ body {
 
   .container-cards {
     flex-direction: row;
-    margin-left: 10.24%;
-    margin-right: 10.24%;
+    margin-left: 7.24%;
+    margin-right: 7.24%;
     padding-left: 65px;
     gap: 65px;
     margin-top: 40px;
