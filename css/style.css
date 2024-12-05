@@ -445,7 +445,6 @@ body {
   height: 3px;
   background: #e1d9bd;
   width: 65px;
-  /* justify-self: center; */
   margin: auto;
   margin-top: 7px;
 }
@@ -560,7 +559,6 @@ body {
   position: relative;
   margin: auto;
   margin-bottom: 24px;
-  /* justify-self: center; */
 }
 
 .side-bar-email-title::after {
@@ -569,7 +567,6 @@ body {
   height: 3px;
   background: #e1d9bd;
   width: 65px;
-  /* justify-self: center; */
   margin: auto;
   margin-top: 7px;
 }
@@ -627,7 +624,6 @@ body {
   position: relative;
   margin-bottom: 25px;
   margin: auto;
-  /* justify-self: center; */
   text-transform: uppercase;
 }
 
@@ -638,7 +634,6 @@ body {
   background: #e1d9bd;
   width: 65px;
   margin: auto;
-  /* justify-self: center; */
   margin-top: 7px;
   margin-left: -10px;
 }
@@ -692,7 +687,6 @@ body {
   background: #e1d9bd;
   width: 65px;
   margin: auto;
-  /* justify-self: center; */
   margin-top: 7px;
 }
 
@@ -757,7 +751,6 @@ body {
   height: 3px;
   background: #e1d9bd;
   width: 65px;
-  /* justify-self: center; */
   margin: auto;
   margin-top: 7px;
 
@@ -925,12 +918,10 @@ body {
 
 .footer-cop {
   display: flex;
-  /* justify-self: center; */
   margin: auto;
   font-weight: bold;
   color: #999999;
   font-size: 12px;
-  /* margin-left: 18%; */
 }
 
 .footer-cop-link {
@@ -981,7 +972,6 @@ body {
   height: 3px;
   background: #e1d9bd;
   width: 65px;
-  /* justify-self: center; */
   margin: auto;
   margin-top: 7px;
 }
@@ -1553,7 +1543,6 @@ body {
   }
 
   .container {
-    /* justify-self: center; */
     margin: auto;
     gap: 130px;
     max-width: 1200px;
