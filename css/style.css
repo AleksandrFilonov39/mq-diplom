@@ -124,7 +124,7 @@ body {
   z-index: 3;
   margin-top: 215px;
   display: flex;
-  width: 75%;
+  justify-content: center;
 }
 
 .main-logo {
